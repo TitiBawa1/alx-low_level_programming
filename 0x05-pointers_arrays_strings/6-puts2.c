@@ -12,7 +12,7 @@ void puts2(char *str)
 	int t = 0;
 	char *y = str;
 	int o;
-	
+
 	while (*y != '\0')
 	{
 		y++;
@@ -25,7 +25,7 @@ void puts2(char *str)
 	{
 		_putchar(str[o]);
 	}
-       	}
+	}
 	_putchar('\n');
 }
 
